@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "fingerboard-mold-v1",
+    "title": "Молд для фингерборда v1",
+    "price": 490,
+    "currency": "RUB",
+    "formats": [
+      "STL"
+    ],
+    "license_type": "персональная",
+    "version": "1.0.0",
+    "changelog": "Первый релиз",
+    "category": "Хобби",
+    "description": "Готовый к печати молд для пресса. Рекомендованный слой 0.2, заполнение 40–60%.",
+    "preview_images": [
+      "/demo/fb1.png"
+    ],
+    "printable_params": {
+      "layer": "0.2",
+      "infill": "50"
+    }
+  },
+  {
+    "slug": "silicone-bait-mold-novel",
+    "title": "Молд для пластизола — Novel",
+    "price": 590,
+    "currency": "RUB",
+    "formats": [
+      "STL",
+      "STEP"
+    ],
+    "license_type": "коммерческая",
+    "version": "1.0.0",
+    "changelog": "Первый релиз",
+    "category": "Инженерия",
+    "description": "Оригинальная форма приманки. Под SLA/FDM (0.12–0.2), заполнение 40–70%.",
+    "preview_images": [
+      "/demo/bait.png"
+    ],
+    "printable_params": {
+      "layer": "0.16",
+      "infill": "60"
+    }
+  }
+]
