@@ -15,6 +15,12 @@ npm run dev
 3. В Project Settings → Environment Variables добавь переменные из `.env.example` (по необходимости).
 4. Deploy.
 
+### Если сборка падает с сообщением «An unexpected error happened…»
+- Это системный сбой на стороне Vercel. Перезапусти сборку — чаще всего повторный запуск проходит успешно.
+- Проверь [статус Vercel](https://vercel-status.com/) на наличие инцидентов.
+- Если повторные сборки продолжают падать, обратись в [поддержку Vercel](https://vercel.com/help) с номером сборки.
+- Локально можно проверить проект командой `npm run build`: если она проходит без ошибок, то проблема точно не в коде.
+
 ## Что внутри
 - Next.js 14 (App Router), TypeScript
 - Tailwind CSS
