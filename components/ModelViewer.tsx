@@ -100,7 +100,6 @@ export default function ModelViewer({ file, url, onAnalyzed }: Props) {
     const load = async () => {
       try {
         disposeMesh();
-
         let arrayBuffer: ArrayBuffer | null = null;
         let sourceName = 'model.stl';
 
@@ -167,7 +166,6 @@ export default function ModelViewer({ file, url, onAnalyzed }: Props) {
         }
 
         const dimsVector = new THREE.Vector3().subVectors(bounds.max, bounds.min);
-        const dims: Dimensions = {
           x: dimsVector.x,
           y: dimsVector.y,
           z: dimsVector.z,
