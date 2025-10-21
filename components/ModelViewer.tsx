@@ -155,3 +155,5 @@ export default function ModelViewer({file, url, onAnalyzed}: Props){
     </div>
   );
 }
+
+// sync: 2025-10-21

@@ -18,7 +18,8 @@
     "printable_params": {
       "layer": "0.2",
       "infill": "50"
-    }
+    },
+    "syncMarker": "2025-10-21"
   },
   {
     "slug": "silicone-bait-mold-novel",
@@ -40,6 +41,7 @@
     "printable_params": {
       "layer": "0.16",
       "infill": "60"
-    }
+    },
+    "syncMarker": "2025-10-21"
   }
 ]

@@ -4,3 +4,5 @@ module.exports = {
     autoprefixer: {},
   },
 };
+
+// sync: 2025-10-21
