@@ -31,3 +31,5 @@ export default function FileDrop({onFile, accept=''}:Props){
     </div>
   )
 }
+
+// sync: 2025-10-21

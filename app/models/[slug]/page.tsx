@@ -33,3 +33,5 @@ export default function ModelPage({params}:{params:{slug:string}}){
     </div>
   )
 }
+
+// sync: 2025-10-21

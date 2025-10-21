@@ -49,3 +49,5 @@ export const MATERIALS: MaterialInfo[] = [
 ];
 
 export const MATERIAL_LOOKUP = Object.fromEntries(MATERIALS.map(m => [m.code, m]));
+
+// sync: 2025-10-21
