@@ -12,8 +12,9 @@
     "changelog": "Первый релиз",
     "category": "Хобби",
     "description": "Готовый к печати молд для пресса. Рекомендованный слой 0.2, заполнение 40–60%.",
+    "image": "/images/products/fingerboard-mold.webp",
     "preview_images": [
-      "/demo/fb1.png"
+      "/images/products/fingerboard-mold.webp"
     ],
     "printable_params": {
       "layer": "0.2",
@@ -34,8 +35,9 @@
     "changelog": "Первый релиз",
     "category": "Инженерия",
     "description": "Оригинальная форма приманки. Под SLA/FDM (0.12–0.2), заполнение 40–70%.",
+    "image": "/images/products/bait-mold-transparent.webp",
     "preview_images": [
-      "/demo/bait.png"
+      "/images/products/bait-mold-transparent.webp"
     ],
     "printable_params": {
       "layer": "0.16",

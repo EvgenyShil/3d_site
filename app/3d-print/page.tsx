@@ -45,7 +45,14 @@ export default function PrintPage(){
   };
 
   return (
-    <div className="grid lg:grid-cols-2 gap-6">
+    <div className="space-y-6">
+      {/* Banner for 3D printing page */}
+      <img
+        src="/images/banners/print-banner.webp"
+        alt="3D-принтер с термокамерой и катушки пластика"
+        className="w-full rounded-2xl border"
+      />
+      <div className="grid lg:grid-cols-2 gap-6">
       <div className="space-y-4">
         <FileDrop onFile={setFile} accept=".stl,.obj" />
         {file && <ModelViewer file={file} onAnalyzed={analyze} />}

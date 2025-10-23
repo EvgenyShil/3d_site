@@ -19,7 +19,6 @@
     "three": "0.165.0",
     "zod": "3.23.8",
     "next-seo": "6.5.0"
-    "@types/three": "^0.164.0"
 
   },
   "devDependencies": {

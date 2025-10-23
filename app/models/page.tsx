@@ -8,6 +8,14 @@ export default function ModelsPage(){
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {data.map(p => (
           <div key={p.slug} className="card p-4">
+            {/* Preview image */}
+            {p.image && (
+              <img
+                src={p.image}
+                alt={p.title}
+                className="w-full h-40 object-cover rounded-xl mb-2 border"
+              />
+            )}
             <div className="text-sm text-zinc-500">{p.category}</div>
             <div className="font-semibold mt-1">{p.title}</div>
             <div className="text-sm mt-2 line-clamp-2">{p.description}</div>

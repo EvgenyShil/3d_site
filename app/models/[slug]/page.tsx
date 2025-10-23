@@ -11,6 +11,14 @@ export default function ModelPage({params}:{params:{slug:string}}){
     <div className="grid lg:grid-cols-3 gap-6">
       <div className="lg:col-span-2 space-y-4">
         <div className="card p-4">
+          {/* Product image */}
+          {p.image && (
+            <img
+              src={p.image as string}
+              alt={p.title}
+              className="w-full rounded-2xl border mb-4"
+            />
+          )}
           <h1 className="text-2xl font-semibold">{p.title}</h1>
           <p className="text-sm text-zinc-600 mt-1">{p.description}</p>
         </div>

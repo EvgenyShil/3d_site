@@ -4,6 +4,12 @@ import MaterialCards from '@/components/MaterialCards'
 export default function Home(){
   return (
     <div className="space-y-12">
+      {/* Hero image */}
+      <img
+        src="/images/hero/hero-main.webp"
+        alt="3D-моделирование и 3D-печать. Печать в термокамере."
+        className="w-full rounded-2xl border mb-6"
+      />
       <section className="flex flex-col lg:flex-row items-center gap-8">
         <div className="flex-1">
           <h1 className="text-4xl font-bold leading-tight">3D-моделирование и 3D-печать на заказ — от идеи до готового изделия</h1>

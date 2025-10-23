@@ -23,7 +23,14 @@ export default function ModelingPage(){
   };
 
   return (
-    <div className="grid lg:grid-cols-3 gap-6">
+    <div className="space-y-6">
+      {/* Banner for 3D modeling page */}
+      <img
+        src="/images/banners/modeling-banner.webp"
+        alt="CAD-модель технической детали — 3D-моделирование"
+        className="w-full rounded-2xl border"
+      />
+      <div className="grid lg:grid-cols-3 gap-6">
       <div className="lg:col-span-2">
         <form className="card p-4 space-y-3" onSubmit={onSubmit}>
           <div>
@@ -91,6 +98,7 @@ export default function ModelingPage(){
           </ol>
         </div>
       </aside>
+      </div>
     </div>
   )
 }
