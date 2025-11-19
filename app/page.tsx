@@ -46,7 +46,7 @@ export default function Home(){
             Бесплатная консультация — подсказки по материалам, формату файлов и способу производства.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="https://t.me/your_dog_is_happy" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href="https://t.me/evgenyssh" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Написать в Telegram
             </a>
             <a href="#contact-form" className="btn-ghost">
@@ -101,12 +101,12 @@ export default function Home(){
             </p>
             <p>Или напишите мне напрямую в Telegram: {' '}
               <a
-                href="https://t.me/your_dog_is_happy"
+                href="https://t.me/evgenyssh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sky-600 hover:underline"
               >
-                @your_dog_is_happy
+                @evgenyssh
               </a>
             </p>
           </div>

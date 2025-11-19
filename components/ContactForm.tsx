@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from 'react'
 
-const TELEGRAM_URL = 'https://t.me/your_dog_is_happy'
+const TELEGRAM_URL = 'https://t.me/evgenyssh'
 
 const services = [
   '3D печать деталей',
