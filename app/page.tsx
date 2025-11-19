@@ -1,4 +1,5 @@
 import ContactForm from '@/components/ContactForm'
+import { WorksGallery } from '@/components/WorksGallery'
 
 const services = [
   {
@@ -20,29 +21,6 @@ const services = [
     title: '3D сканирование и сопровождение',
     description:
       'Точное сканирование образцов для повторения или доработки, помощь на всех этапах и разработка решений по вашим идеям.'
-  }
-]
-
-const works = [
-  {
-    src: '/images/products/fingerboard-mold.webp',
-    alt: 'Молд для фингерборда',
-    caption: 'Молд для фингерборда'
-  },
-  {
-    src: '/images/products/bait-mold-transparent.webp',
-    alt: 'Молд для силиконовой приманки',
-    caption: 'Молд для силиконовой приманки'
-  },
-  {
-    src: '/images/cases/case-fish-mold.webp',
-    alt: 'Корпус под задачу клиента',
-    caption: 'Корпус/молд под задачу клиента'
-  },
-  {
-    src: '/images/banners/print-banner.webp',
-    alt: 'Печать технических деталей',
-    caption: 'Печать технических деталей'
   }
 ]
 
@@ -103,17 +81,7 @@ export default function Home(){
         </div>
       </section>
 
-      <section className="space-y-6">
-        <h2 className="text-3xl font-semibold">Примеры работ</h2>
-        <div className="grid gap-6 md:grid-cols-2">
-          {works.map((work) => (
-            <figure key={work.src} className="space-y-3">
-              <img src={work.src} alt={work.alt} className="w-full rounded-xl border" />
-              <figcaption className="text-sm text-zinc-600">{work.caption}</figcaption>
-            </figure>
-          ))}
-        </div>
-      </section>
+      <WorksGallery />
 
       <section id="contact-form" className="space-y-8">
         <div className="space-y-3 text-center">
