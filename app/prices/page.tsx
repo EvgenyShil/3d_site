@@ -1,4 +1,18 @@
+const showPricingBlock = false
+
 export default function Prices(){
+  if(!showPricingBlock){
+    return (
+      <section className="space-y-4 rounded-2xl border p-6 text-center">
+        <h1 className="text-2xl font-semibold">Цены</h1>
+        <p className="text-sm text-zinc-600">
+          Стоимость услуг рассчитываю индивидуально после обсуждения задачи. Оставьте заявку или напишите в Telegram,
+          чтобы получить персональное предложение.
+        </p>
+      </section>
+    )
+  }
+
   return (
     <div className="space-y-6">
       {/* Prices banner */}
