@@ -80,6 +80,35 @@ export default function Home(){
         </div>
       </section>
 
+      <section className="card space-y-4 p-6">
+        <div className="space-y-2">
+          <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">Поисковое продвижение</p>
+          <h2 className="text-2xl font-semibold">Ключевые направления и запросы</h2>
+          <p className="text-zinc-700">
+            Работаю с доставкой по Москве, области и всей России. Беру на себя 3D печать деталей на заказ,
+            техническое 3D моделирование, подготовку к мелкосерийному производству и 3D сканирование для
+            реверс-инжиниринга. Подбираю материалы: PLA, ABS, PETG, TPU, нейлон, композитные пластики с
+            карбоном и стекловолокном.
+          </p>
+        </div>
+        <div className="grid gap-3 md:grid-cols-2">
+          <ul className="space-y-2 text-zinc-700">
+            <li>• 3D печать автозапчастей, корпусов электроники, креплений и оснастки</li>
+            <li>• FDM печать прототипов и мелких серий, постобработка и сборка</li>
+            <li>• 3D моделирование шестерёнок, кронштейнов, дизайнерских изделий</li>
+            <li>• 3D сканирование объектов для повторения или доработки</li>
+            <li>• Изготовление деталей по фото, скану или чертежу</li>
+          </ul>
+          <ul className="space-y-2 text-zinc-700">
+            <li>• Срочная 3D печать и отправка по России</li>
+            <li>• Консультации по прочности, термостойкости и подбору пластика</li>
+            <li>• Подготовка моделей под печать: STL, STEP, OBJ, 3MF</li>
+            <li>• Реверс-инжиниринг и восстановление утраченных деталей</li>
+            <li>• Производство прототипов для авто, дронов, робототехники и DIY</li>
+          </ul>
+        </div>
+      </section>
+
       <section className="card flex flex-col gap-4 p-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="space-y-1">
           <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">портфолио</p>
