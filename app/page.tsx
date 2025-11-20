@@ -80,6 +80,70 @@ export default function Home(){
         </div>
       </section>
 
+      <section className="card space-y-4 p-6">
+        <div className="space-y-2">
+          <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">Поисковое продвижение</p>
+          <h2 className="text-2xl font-semibold">Ключевые направления и запросы</h2>
+          <p className="text-zinc-700">
+            Работаю с доставкой по Москве, области и всей России. Беру на себя 3D печать деталей на заказ,
+            техническое 3D моделирование, подготовку к мелкосерийному производству и 3D сканирование для
+            реверс-инжиниринга. Подбираю материалы: PLA, ABS, PETG, TPU, нейлон, композитные пластики с
+            карбоном и стекловолокном.
+          </p>
+        </div>
+        <div className="grid gap-3 md:grid-cols-2">
+          <ul className="space-y-2 text-zinc-700">
+            <li>• 3D печать автозапчастей, корпусов электроники, креплений и оснастки</li>
+            <li>• FDM печать прототипов и мелких серий, постобработка и сборка</li>
+            <li>• 3D моделирование шестерёнок, кронштейнов, дизайнерских изделий</li>
+            <li>• 3D сканирование объектов для повторения или доработки</li>
+            <li>• Изготовление деталей по фото, скану или чертежу</li>
+          </ul>
+          <ul className="space-y-2 text-zinc-700">
+            <li>• Срочная 3D печать и отправка по России</li>
+            <li>• Консультации по прочности, термостойкости и подбору пластика</li>
+            <li>• Подготовка моделей под печать: STL, STEP, OBJ, 3MF</li>
+            <li>• Реверс-инжиниринг и восстановление утраченных деталей</li>
+            <li>• Производство прототипов для авто, дронов, робототехники и DIY</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="card space-y-4 p-6">
+        <div className="space-y-2">
+          <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">Рекламные офферы</p>
+          <h2 className="text-2xl font-semibold">Что указать в объявлениях</h2>
+          <p className="text-zinc-700">
+            Чтобы реклама конвертировалась в заявки, используйте конкретные триггеры: скорость
+            производства, материалы под прочность или гибкость, доставка по всей России и чек от
+            самозанятого. Я быстро отвечаю и помогаю сформулировать задачу, чтобы рассчитать цену
+            уже в первом сообщении.
+          </p>
+        </div>
+        <div className="grid gap-3 md:grid-cols-2">
+          <ul className="space-y-2 text-zinc-700">
+            <li>• Срочная 3D печать от 24 часов, подготовка к мелким сериям</li>
+            <li>• Прочные материалы: ABS, нейлон, PETG, карбон/стекло-композиты</li>
+            <li>• Гибкие пластики TPU/TPA для демпферов и уплотнений</li>
+            <li>• Доставка по Москве/МО и отправка по РФ, надёжная упаковка</li>
+          </ul>
+          <ul className="space-y-2 text-zinc-700">
+            <li>• Работа по фото, скану или чертежу, помощь с ТЗ</li>
+            <li>• Чек самозанятого через ФНС, прозрачные сроки и цены</li>
+            <li>• Консультации по прочности, термо- и износостойкости</li>
+            <li>• Бонус: скидка 10% для заявок из рекламы и Telegram</li>
+          </ul>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <a href="https://t.me/evgenyssh" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Запустить объявление вместе
+          </a>
+          <a href="#contact-form" className="btn-ghost">
+            Получить текст объявления и УТП
+          </a>
+        </div>
+      </section>
+
       <section className="card flex flex-col gap-4 p-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="space-y-1">
           <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">портфолио</p>
