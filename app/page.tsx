@@ -109,6 +109,41 @@ export default function Home(){
         </div>
       </section>
 
+      <section className="card space-y-4 p-6">
+        <div className="space-y-2">
+          <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">Рекламные офферы</p>
+          <h2 className="text-2xl font-semibold">Что указать в объявлениях</h2>
+          <p className="text-zinc-700">
+            Чтобы реклама конвертировалась в заявки, используйте конкретные триггеры: скорость
+            производства, материалы под прочность или гибкость, доставка по всей России и чек от
+            самозанятого. Я быстро отвечаю и помогаю сформулировать задачу, чтобы рассчитать цену
+            уже в первом сообщении.
+          </p>
+        </div>
+        <div className="grid gap-3 md:grid-cols-2">
+          <ul className="space-y-2 text-zinc-700">
+            <li>• Срочная 3D печать от 24 часов, подготовка к мелким сериям</li>
+            <li>• Прочные материалы: ABS, нейлон, PETG, карбон/стекло-композиты</li>
+            <li>• Гибкие пластики TPU/TPA для демпферов и уплотнений</li>
+            <li>• Доставка по Москве/МО и отправка по РФ, надёжная упаковка</li>
+          </ul>
+          <ul className="space-y-2 text-zinc-700">
+            <li>• Работа по фото, скану или чертежу, помощь с ТЗ</li>
+            <li>• Чек самозанятого через ФНС, прозрачные сроки и цены</li>
+            <li>• Консультации по прочности, термо- и износостойкости</li>
+            <li>• Бонус: скидка 10% для заявок из рекламы и Telegram</li>
+          </ul>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <a href="https://t.me/evgenyssh" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Запустить объявление вместе
+          </a>
+          <a href="#contact-form" className="btn-ghost">
+            Получить текст объявления и УТП
+          </a>
+        </div>
+      </section>
+
       <section className="card flex flex-col gap-4 p-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="space-y-1">
           <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">портфолио</p>

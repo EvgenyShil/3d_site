@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'
+const normalizedSiteUrl = siteUrl.startsWith('http') ? siteUrl : `https://${siteUrl}`
 
 const organizationSchema = {
   '@context': 'https://schema.org',
@@ -25,6 +26,7 @@ const organizationSchema = {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL(normalizedSiteUrl),
   title: '3D печать, 3D моделирование и 3D сканирование на заказ — бесплатная консультация',
   description:
     '3D печать деталей, 3D моделирование и 3D сканирование на заказ. Печать автозапчастей, корпусов, креплений, фигурок и технических деталей. Реверс-инжиниринг, восстановление деталей по образцу, фото и скану. Бесплатная консультация по материалам и производству.',
@@ -50,13 +52,13 @@ export const metadata: Metadata = {
     follow: true
   },
   alternates: {
-    canonical: '/'
+    canonical: normalizedSiteUrl
   },
   openGraph: {
     title: '3D печать, 3D моделирование и 3D сканирование на заказ',
     description:
       'Профессиональные услуги 3D печати, моделирования и сканирования: автозапчасти, корпуса, крепления, фигурки, реверс-инжиниринг и консультации по материалам.',
-    url: siteUrl,
+    url: normalizedSiteUrl,
     siteName: '3D-услуги',
     locale: 'ru_RU',
     type: 'website',
